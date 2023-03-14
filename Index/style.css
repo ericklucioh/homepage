@@ -12,11 +12,18 @@ body {
     border: 5px solid red;
 }
 .nav{
-    padding: 1rem 1rem 1rem 1rem;
+    background-color: #0F172A;
+    padding: 0rem 1rem 1rem 1rem;
 }
 .headlinks{
+    background-color: #0F172A;
    display: flex;
    justify-content: flex-end;
+   position: fixed;
+  top: 0;
+  left: 0rem;
+  width: 100%;
+  z-index: 999;
     
 }
 .headlinks a{
@@ -30,7 +37,7 @@ body {
     width: 20rem;
 }
 .start{
-    padding: 1rem 0rem 8rem 0rem;
+    padding: 10rem 0rem 8rem 3rem;
     max-width: 96rem;
     margin:0 auto;
     display:flex;
